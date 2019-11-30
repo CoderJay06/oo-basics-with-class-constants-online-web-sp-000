@@ -11,6 +11,7 @@ class Shoe
     if BRANDS.uniq 
       BRANDS << brand 
     end
+    BRANDS
   end
   
 
